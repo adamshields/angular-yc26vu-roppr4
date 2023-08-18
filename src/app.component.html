@@ -1,0 +1,12 @@
+<div class="control-section">
+  <div class="col-lg-9">
+    <div class="control_wrapper" style="margin:130px auto;width:300px">
+      <ejs-uploader
+        id="UploadFiles"
+        [asyncSettings]="path"
+        [dropArea]="dropElement"
+        (removing)="onFileRemove($event)"
+      ></ejs-uploader>
+    </div>
+  </div>
+</div>
